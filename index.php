@@ -7,7 +7,7 @@ if(isset($_POST['host'])){
         $resId = print_r($dbConn, true);
 }
 
-
+?>
 <!Doctype html>
 <html>
 <head>
@@ -21,7 +21,7 @@ if(isset($_POST['host'])){
 <input type="number" value="5432" name="port" /><br />
 <label for="dbname">Nombre DB</label><br />
 <input type="text" value="postgres" name="dbname" /><br />
-<label for="password">Pass</label>
+<label for="password">Pass</label><br />
 <input type="password" value="" name="password" /><br />
 <input type="submit" value="Conectar" />
 </form>
